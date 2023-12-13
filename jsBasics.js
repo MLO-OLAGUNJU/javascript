@@ -116,15 +116,90 @@ const arrayName = [
 // numbers.unshift(20);
 // console.log(numbers);
 
-// using constructor for arrays or objects
+// using constructor for arrays
 // const name = new type(arguments);
-const objectiscarName = new Object(
-  (make = "Ford"),
-  (year = 2023),
-  (type = "Truck")
-);
-const arrayName = new Array(12, "number", "age", true);
 
-console.log(arrayName.push("emma"));
-console.log(arrayName[4]);
-console.log(objectiscarName);
+// const arrayName = new Array(12, "number", "age", true);
+
+// console.log(arrayName.push("emma"));
+// console.log(arrayName[4]);
+/*
+const colors = ["red", "green", "blue", "white"];
+console.log(colors);
+
+colors.shift();
+console.log(colors);
+colors.pop();
+console.log(colors);
+colors.push("black", "yellow");
+console.log(colors);
+colors.unshift("blue");
+console.log(colors);
+*/
+
+/*
+let electricity = false;
+if (electricity == true) {
+  console.log("There is light in SkillUp Africa");
+} else {
+  console.log("There is no light in skillUp Africa");
+}
+*/
+
+// var theNumber = Number(prompt("Pick a number", ""));
+
+/*
+if (isNaN(theNumber)) {
+  prompt("Make sure your input is a number");
+} else {
+  alert("Your number is the square root of " + theNumber * theNumber);
+}
+*/
+
+// if (!theNumber) {
+//   return null;
+// } else {
+//   alert("Your number is the square root of " + theNumber * theNumber);
+// }
+
+// let age = 18;
+
+/* if (age >= 18) {
+  console.log("You can sign up");
+}
+
+let value = 16;
+let state = "Lagos";
+
+if (state == "Lagos") {
+  if (value >= 16) {
+    console.log("You can drive!");
+  }
+}
+
+if (state == "Lagos" || value >= 16) {
+  console.log("You can drive");
+} */
+/* 
+if (condition) {
+  //statement
+} else {
+  //statement
+} */
+/* 
+let age = 12;
+
+if (age >= 18) {
+  console.log("You can drive");
+} else {
+  console.log("You must be 18 years old");
+} */
+
+let age = 16;
+let country = "Nigeria";
+
+if (age >= 16 && country === "Nigeria") {
+  console.log("You are free to drive");
+} else {
+  console.log("You are not authorized to drive");
+}
