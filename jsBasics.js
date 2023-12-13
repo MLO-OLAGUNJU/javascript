@@ -195,7 +195,7 @@ if (age >= 18) {
   console.log("You must be 18 years old");
 } */
 
-let age = 16;
+/* let age = 16;
 let country = "Nigeria";
 
 if (age >= 16 && country === "Nigeria") {
@@ -203,3 +203,119 @@ if (age >= 16 && country === "Nigeria") {
 } else {
   console.log("You are not authorized to drive");
 }
+ */
+
+/* if (condition) {
+  //statements
+} else if (condition) {
+  //statements
+} else if (condition) {
+  //statements
+} else {
+  //statements
+} */
+
+let month = 6;
+let monthName;
+
+if (month === 1) {
+  monthName = "Jan";
+} else if (month === 2) {
+  monthName = "Feb";
+} else if (month === 3) {
+  monthName = "Mar";
+} else if (month === 4) {
+  monthName = "Apr";
+} else if (month === 5) {
+  monthName = "May";
+} else if (month === 6) {
+  monthName = "Jun";
+} else if (month === 7) {
+  monthName = "Jul";
+} else if (month === 8) {
+  monthName = "Aug";
+} else if (month === 9) {
+  monthName = "Sept";
+} else if (month === 10) {
+  monthName = "Oct";
+} else if (month === 11) {
+  monthName = "Nov";
+} else if (month === 12) {
+  monthName = "Dec";
+}
+
+console.log(monthName);
+
+//Classwork
+
+let weight = 70;
+let height = 1.72;
+
+let bmi = weight / (height * height);
+
+let wieghtStatus;
+
+if (bmi < 18.5) {
+  wieghtStatus = "Underweight";
+} else if (bmi >= 18.5 && bmi <= 24.9) {
+  wieghtStatus = "Healthy weight";
+} else if (bmi >= 25 && bmi <= 29.9) {
+  wieghtStatus = "Overweight";
+} else {
+  wieghtStatus = "Obesity";
+}
+
+console.log(wieghtStatus);
+
+// USING PROMPT AND ALERT USING PROMPT AND ALERT USING PROMPT AND ALERT USING PROMPT AND ALERT USING PROMPT AND ALERT
+/* let weight = String(prompt("Enter your weight"));
+let height = Number(prompt("Enter your height"));
+
+let bmi = weight / (height * height);
+
+let wieghtStatus;
+
+if (bmi < 18.5) {
+  wieghtStatus = "Underweight";
+} else if (bmi >= 18.5 && bmi <= 24.9) {
+  wieghtStatus = "Healthy weight";
+} else if (bmi >= 25 && bmi <= 29.9) {
+  wieghtStatus = "Overweight";
+} else {
+  wieghtStatus = "Obesity";
+}
+
+alert(wieghtStatus); */
+
+//ternary operators
+
+/* let age = 18;
+let message;
+
+if (age >= 16) {
+  message = "You can drive";
+} else {
+  message = "You cannot drive";
+}
+
+age >= 16 ? (message = "You can drive") : (message = "You cannot drive");
+console.log(message); */
+
+// condition ? expressionIfTrue : expressionIfFalse
+// ? === if
+// : === else
+/* let authenticated = true;
+let nextURL = authenticated
+  ? alert("You will redirect to admin area")
+  : alert("access denied");
+
+console.log(nextURL); */
+
+let speed = Number(prompt("What is your speed"));
+let message;
+speed >= 120
+  ? (message = "Too fast")
+  : speed >= 80
+  ? (message = "Fast")
+  : (message = "OKAY");
+alert(message);
