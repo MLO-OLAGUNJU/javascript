@@ -215,7 +215,7 @@ if (age >= 16 && country === "Nigeria") {
   //statements
 } */
 
-let month = 6;
+/* let month = 6;
 let monthName;
 
 if (month === 1) {
@@ -251,9 +251,9 @@ console.log(monthName);
 let weight = 70;
 let height = 1.72;
 
-let bmi = weight / (height * height);
+let bmi = weight / (height * height); */
 
-let wieghtStatus;
+/* let wieghtStatus;
 
 if (bmi < 18.5) {
   wieghtStatus = "Underweight";
@@ -265,7 +265,7 @@ if (bmi < 18.5) {
   wieghtStatus = "Obesity";
 }
 
-console.log(wieghtStatus);
+console.log(wieghtStatus); */
 
 // USING PROMPT AND ALERT USING PROMPT AND ALERT USING PROMPT AND ALERT USING PROMPT AND ALERT USING PROMPT AND ALERT
 /* let weight = String(prompt("Enter your weight"));
@@ -311,11 +311,116 @@ let nextURL = authenticated
 
 console.log(nextURL); */
 
-let speed = Number(prompt("What is your speed"));
+/* let speed = Number(prompt("What is your speed"));
 let message;
 speed >= 120
   ? (message = "Too fast")
   : speed >= 80
   ? (message = "Fast")
   : (message = "OKAY");
-alert(message);
+alert(message); */
+
+/* let a = 10;
+let b = 5;
+let c = 3;
+
+if (a > b && a > c) {
+  console.log("1111");
+} else {
+  console.log("2222");
+}
+
+if (a < c) {
+  console.log("*");
+} else if (a == b) {
+  console.log("&");
+} else {
+  console.log("$");
+}
+
+if (++a > b++ || a-- > 0) {
+  console.log("c++");
+} else {
+  console.log("c--");
+}
+
+if ("a" > "b" || 10 > "a") {
+  console.log("#*#");
+}
+
+if (a < b) {
+  console.log("####");
+  console.log("****");
+} else {
+  console.log("&&&&");
+}
+ */
+
+/* switch (expression) {
+  case value1:
+    statement1;
+    break;
+
+  case value2:
+    statement2;
+    break;
+
+  case value3:
+    statement3;
+    break;
+
+  default:
+    default-statement
+} */
+
+/* if (expression === value1) {
+  statement1;
+} else if (expression === value2) {
+  statement2
+} else if (expression === value3) {
+  statement3
+} else {
+  statement
+} */
+
+// let day = prompt(Number("Choose a day number"));
+// let dayName;
+let day = 3;
+let dayName;
+
+switch (day) {
+  case 1:
+    dayName = "Sunday";
+    break;
+
+  case 2:
+    dayName = "Monday";
+    break;
+
+  case 3:
+    dayName = "Tuesday";
+    break;
+
+  case 4:
+    dayName = "Wednesday";
+    break;
+
+  case 5:
+    dayName = "Thursday";
+    break;
+
+  case 6:
+    dayName = "Friday";
+    break;
+
+  case 7:
+    dayName = "Saturday";
+    break;
+
+  default:
+    dayName = "Invalid Day";
+    break;
+}
+
+console.log(dayName);
+// alert(dayName);
