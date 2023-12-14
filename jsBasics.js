@@ -383,7 +383,7 @@ if (a < b) {
   statement
 } */
 
-// let day = prompt(Number("Choose a day number"));
+/* // let day = prompt(Number("Choose a day number"));
 // let dayName;
 let day = 3;
 let dayName;
@@ -423,4 +423,99 @@ switch (day) {
 }
 
 console.log(dayName);
-// alert(dayName);
+// alert(dayName); */
+
+/* let year = 2016;
+let month = 2;
+let dayCount;
+
+switch (month) {
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    dayCount = 31;
+    break;
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    dayCount = 30;
+    break;
+  case 2:
+    if ((year % 4 == 0 && !(year % 100 == 0)) || year % 400 == 0) {
+      dayCount = 29;
+    } else {
+      dayCount = 28;
+    }
+    break;
+  default:
+    dayCount = -1;
+}
+
+console.log(dayCount); */
+
+/* //Assignment 1
+let day = 9;
+let dayName = "Today";
+
+if (day == 1) {
+  console.log(dayName + " " + "is Sunday");
+} else if (day == 2) {
+  console.log(dayName + " " + "is Monday");
+} else if (day == 3) {
+  console.log(dayName + " " + "is Tuesday");
+} else if (day == 4) {
+  console.log(dayName + " " + "is Wednesday");
+} else if (day == 5) {
+  console.log(dayName + " " + "is Thursday");
+} else if (day == 6) {
+  console.log(dayName + " " + "is Friday");
+} else if (day == 7) {
+  console.log(dayName + " " + "is Saturday");
+} else {
+  console.log(`
+  The Day you have requested for does not exist on planet earth
+  
+  KINDLY INPUT A VALID DAY NUMBER
+
+  Thanks for choosing MLO's Day-Name chceker
+  Have a NICE DAY!
+
+  `);
+} */
+
+/* //Assignment 2
+
+let year = 2016;
+let month = 20;
+let dayCount = "The day-count for this month";
+
+if (
+  month == 1 ||
+  month == 3 ||
+  month == 5 ||
+  month == 7 ||
+  month == 8 ||
+  month == 10 ||
+  month == 12
+) {
+  console.log(`${dayCount} is 31`);
+} else if (month == 4 || month == 6 || month == 9 || month == 11) {
+  console.log(`${dayCount} is 30`);
+} else if (month == 2) {
+  if ((year % 4 == 0 && !(year % 100 == 0)) || year % 400 == 0) {
+    console.log(`${dayCount} is 29`);
+  } else {
+    console.log(`${dayCount} is 28`);
+  }
+} else {
+  console.log(`
+  ${dayCount} is -1; 
+  Because the month does not exists.
+  Thank you For Choosing MLO's Day-Counter.
+  Have a NICE DAY! `);
+} */
