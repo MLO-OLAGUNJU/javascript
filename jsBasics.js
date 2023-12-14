@@ -519,3 +519,39 @@ if (
   Thank you For Choosing MLO's Day-Counter.
   Have a NICE DAY! `);
 } */
+
+//
+//testing my prompts and alerts with the assignment
+//
+/* let year = Number(prompt("ENTER A YEAR (e.g 2023)"));
+let month = Number(
+  prompt("ENTER A MONTH INDEX/ MONTH NUMBER (e.g 1 for january)")
+);
+let dayCount = "The day-count for this month";
+
+if (
+  month == 1 ||
+  month == 3 ||
+  month == 5 ||
+  month == 7 ||
+  month == 8 ||
+  month == 10 ||
+  month == 12
+) {
+  alert(`${dayCount} is 31`);
+} else if (month == 4 || month == 6 || month == 9 || month == 11) {
+  alert(`${dayCount} is 30`);
+} else if (month == 2) {
+  if ((year % 4 == 0 && !(year % 100 == 0)) || year % 400 == 0) {
+    alert(`${dayCount} is 29`);
+  } else {
+    alert(`${dayCount} is 28`);
+  }
+} else {
+  alert(`
+  error getting
+  ${dayCount} for the month-index provided; 
+  Because the month/year is invalid.
+  Thank you For Choosing MLO's Day-Counter.
+  Have a NICE DAY! `);
+} */
