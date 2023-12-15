@@ -636,5 +636,5 @@ do {
 let hash = "#";
 let counting = 1;
 if (counting < 20) {
-  console.log(`${hash++}`);
+  console.log(`${hash}`);
 }
