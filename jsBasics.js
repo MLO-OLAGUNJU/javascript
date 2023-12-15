@@ -633,8 +633,11 @@ do {
 //Assignments
 
 //Looping a triangle (right angle triangle)
-let hash = "#";
-let counting = 1;
-if (counting < 20) {
-  console.log(`${hash}`);
+
+for (let i = 1; i <= 5; i++) {
+  let line = "";
+  for (let j = 1; j <= i; j++) {
+    line += "*";
+  }
+  console.log(line);
 }
