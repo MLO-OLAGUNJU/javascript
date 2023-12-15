@@ -620,7 +620,7 @@ do {
   }
 } while (number != secretNumber); */
 
-/* for (initilizer; condition; iterato) {
+/* for (initilizer; condition; iterator) {
   //statement
 } */
 
