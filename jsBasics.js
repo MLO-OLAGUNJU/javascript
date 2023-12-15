@@ -555,3 +555,75 @@ if (
   Thank you For Choosing MLO's Day-Counter.
   Have a NICE DAY! `);
 } */
+
+//while loop
+/* while (condition) {
+  //statement
+} */
+
+/* let count = 1;
+while (count < 10) {
+  console.log(count);
+  count += 2;
+} */
+
+/* let number = 1;
+while (number <= 10) {
+  console.log(`The number is ${number}`);
+  number++;
+  number = number + 2;
+} */
+
+//The Do while loop
+/* do {
+  
+} while (condition); */
+
+/* let number = 11;
+do {
+  console.log(`The number is ${number}`);
+  number++;
+} while (number < 10);
+
+while (number < 10) {
+  console.log(`The number is ${number}`);
+  number = +2;
+} */
+
+/* let count = 0;
+do {
+  console.log(`${count}`);
+  count++;
+} while (count < 5); */
+
+/* const MIN = 1;
+const MAX = 10;
+
+let secretNumber = Math.floor(Math.random() * (MAX - MIN + 1) + MIN);
+
+let guesses = 0;
+let hint = "";
+let number = 0;
+
+do {
+  let input = prompt(`Please enter a number between ${MIN} and ${MAX}` + hint);
+
+  number = parseInt(input);
+  guesses++;
+
+  if (number > secretNumber) {
+    hint = `, the less than ` + number;
+  } else if (number < secretNumber) {
+    hint = `, and greater than ` + number;
+  } else if (number == secretNumber) {
+    alert(`Congrats! You have won`);
+  }
+} while (number != secretNumber); */
+
+/* for (initilizer; condition; iterato) {
+  //statement
+} */
+
+for (let count = 0; count < 5; count++) {
+  console.log(count);
+}
