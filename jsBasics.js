@@ -627,3 +627,5 @@ do {
 /* for (let count = 0; count < 5; count++) {
   console.log(count);
 } */
+
+console.log(20 % 7);
