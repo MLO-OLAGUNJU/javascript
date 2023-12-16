@@ -634,10 +634,16 @@ do {
 
 //Looping a triangle (right angle triangle)
 
-for (let i = 1; i <= 5; i++) {
-  let line = "";
-  for (let j = 1; j <= i; j++) {
-    line += "*";
-  }
-  console.log(line);
+/* let hash = "#";
+while (hash.length <= 5) {
+  console.log(hash);
+  hash += "#";
+} */
+
+// Assignment 2
+// Chess board
+
+let hash = " # ";
+while (hash) {
+  console.log(hash);
 }
